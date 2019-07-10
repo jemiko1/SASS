@@ -49,12 +49,20 @@ a {
 
 .header {
   margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center; }
   .header .logo {
     width: 200px; }
   .header .navigation .nav-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; }
     .header .navigation .nav-ul .nav-li {
       margin-left: 30px; }
@@ -63,7 +71,10 @@ a {
         font-size: 25px;
         text-transform: uppercase; }
   .header .social {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
   .header .social-li {
     margin-left: 30px; }
@@ -79,7 +90,11 @@ a {
 
 .footer {
   margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   background-color: gray;
   padding: 20px;
